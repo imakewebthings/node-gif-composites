@@ -1,0 +1,27 @@
+{
+  "name": "gif-trail",
+  "version": "0.1.0",
+  "description": "Turn a gif into a motion/tracer trail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:imakewebthings/node-gif-trail.git"
+  },
+  "keywords": [
+    "gif"
+  ],
+  "author": "Caleb Troughton <caleb@imakewebthings.com> (http://imakewebthings.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imakewebthings/node-gif-trail/issues"
+  },
+  "homepage": "https://github.com/imakewebthings/node-gif-trail",
+  "dependencies": {
+    "readimage": "^1.1.1",
+    "segfault-handler": "git+https://github.com/ddopson/node-segfault-handler.git#af7c153",
+    "writegif": "^1.1.0"
+  }
+}
