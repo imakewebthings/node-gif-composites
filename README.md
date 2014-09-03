@@ -1,18 +1,48 @@
-# gif-trail
+# gif-composites
 
-Turn a gif into a motion trail by compositing each frame on top of the previous ones.
+Apply various composite effects to gifs.
 
-`npm install gif-trail`
+`npm install gif-composites`
+
+All methods take an image buffer and provides a transformed image buffer in the callback.
 
 ```js
-var trail = require('gif-trail')
+var composites = require('gif-composites')
 var fs = require('fs')
 
 fs.readFile('example.gif', function(err, buffer) {
-  gif-trail(buffer, function(err, trailBuffer) {
-    fs.writeFile('example-trailed.gif', function(err) {
-      console.log('trailed')
-    })
+  composites.tracer(buffer, function(err, tracerBuffer) {
+    fs.writeFileSync('example-tracer.gif', tracerBuffer)
   })
 })
 ```
+
+## Methods
+
+Given this original...
+
+
+
+### tracer
+
+
+
+### min
+
+
+
+### max
+
+
+
+### trip
+
+
+
+### meatmotion
+
+
+
+## License
+
+MIT.
