@@ -21,27 +21,27 @@ fs.readFile('example.gif', function(err, buffer) {
 
 Given this original...
 
-
+![Original](https://raw.githubusercontent.com/imakewebthings/node-gif-composites/master/examples/original.gif)
 
 ### tracer
 
-
+![Tracer](https://raw.githubusercontent.com/imakewebthings/node-gif-composites/master/examples/motion_ghost.gif)
 
 ### min
 
-
+![Min](https://raw.githubusercontent.com/imakewebthings/node-gif-composites/master/examples/darkest.gif)
 
 ### max
 
-
+![Max](https://raw.githubusercontent.com/imakewebthings/node-gif-composites/master/examples/brightest.gif)
 
 ### trip
 
-
+![Trip](https://raw.githubusercontent.com/imakewebthings/node-gif-composites/master/examples/multiply.gif)
 
 ### meatmotion
 
-
+![Meatmotion](https://raw.githubusercontent.com/imakewebthings/node-gif-composites/master/examples/meat_motion.gif)
 
 ## License
 
